@@ -202,7 +202,7 @@ Bingung? Mari kita lihat contohnya:
           static void help(){
 
               // ini variabel lokal
-              String nama = "Petani Kode";
+              String nama = "Programmer Go Blog";
 
               // mengakses variabel global di dalam fungso help()
               System.out.println("Nama: " + nama);
@@ -444,7 +444,7 @@ Lengkap sudah, berikut ini bentuk kode lengkapnya.
 
 # Memahami Kembali 2 Jenis Perulangan dalam Java
 
-Belajar Pemrograman Java: Memahami Dua Jenis Perulangan dalam Java Apa yang akan kita lakukan bila ingin menyuruh komputer mengerjakan perintah yang berulang-ulang? Misalkan kita ingin menyuruh komputer menampilkan teks Petani Kode sebanyak 5x. Maka kita bisa menyuruhnya seperti ini:
+Belajar Pemrograman Java: Memahami Dua Jenis Perulangan dalam Java Apa yang akan kita lakukan bila ingin menyuruh komputer mengerjakan perintah yang berulang-ulang? Misalkan kita ingin menyuruh komputer menampilkan teks Programmer Go Blog sebanyak 5x. Maka kita bisa menyuruhnya seperti ini:
 
       System.out.println("Programmer Go Blog");
       System.out.println("Programmer Go Blog");
@@ -455,7 +455,7 @@ Belajar Pemrograman Java: Memahami Dua Jenis Perulangan dalam Java Apa yang akan
 Tapi… bagaimana kalau sebanyak 1000x, apa kita akan mampu mengetik kode sebanyak itu? Tentunya tidak. Karena itu, kita harus pakai perulangan. Contoh perulangan:
 
       for (int hitungan = 0; hitungan <= 1000; hitungan++) {
-          System.out.println("Petani Kode");
+          System.out.println("Programmer Go Blog");
       }
 
 Sebelum masuk ke pembahasan lebih dalam, ada hal yang harus kalian ketahui terlebih dahulu. Perulangan dalam pemrograman dibagi manjadi dua jenis:
